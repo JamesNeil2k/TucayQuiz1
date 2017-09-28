@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn_Home = (Button) findViewById(R.id.home);
+        btn_Home = (Button) findViewById(R.id.btnBack);
         btn_Down1 = (Button) findViewById(R.id.down1);
         btn_Down2 = (Button) findViewById(R.id.down2);
         btn_Down3 = (Button) findViewById(R.id.down3);
@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void callSecondActivity (View view) {
         Intent intent = new Intent(this,SecondScreen.class);
-        intent.putExtra("name", et_Name.getText().toString());
         startActivity(intent);
 
     }
