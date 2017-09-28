@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.tucay.tucayquiz1.MainActivity">
+
+    <Button
+        android:id="@+id/nougat"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:background="@drawable/nougat"
+        tools:layout_editor_absoluteY="171dp"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <Button
+        android:id="@+id/lollipop"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:background="@drawable/lollipop"
+        tools:layout_editor_absoluteY="61dp"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <Button
+        android:id="@+id/oreo"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:background="@drawable/oreo"
+        tools:layout_editor_absoluteY="279dp"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Home"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Button
+        android:id="@+id/down1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Button
+        android:id="@+id/down2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="2"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <Button
+        android:id="@+id/down3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="3"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+</android.support.constraint.ConstraintLayout>
